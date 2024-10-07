@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cb3d99-aadf-4c69-988b-405fa907bcde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.terraform.lock.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/tehcyx/kind/0.6.0/windows_amd64/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/tehcyx/kind/0.6.0/windows_amd64/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.terraform/providers/registry.terraform.io/tehcyx/kind/0.6.0/windows_amd64/terraform-provider-kind.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge-config" afterDir="false" />
-    </list>
+    <list default="true" id="c7cb3d99-aadf-4c69-988b-405fa907bcde" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728155161128</updated>
       <workItem from="1728155162250" duration="5611000" />
-      <workItem from="1728208975061" duration="7786000" />
+      <workItem from="1728208975061" duration="8104000" />
     </task>
     <task id="LOCAL-00001" summary="added the main.tf">
       <option name="closed" value="true" />
@@ -76,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728312375365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="terraform .tf files">
+      <option name="closed" value="true" />
+      <created>1728313018850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313018850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
