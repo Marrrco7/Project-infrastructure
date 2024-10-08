@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Marrrco7/Devops-solution.git
     targetRevision: HEAD
-    path: kubernetes manifests
+    path: manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
