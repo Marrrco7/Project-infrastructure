@@ -3,9 +3,11 @@ kind: Application
 metadata:
   name: myapp-argo-application
   namespace: argocd
+  annotations:
+    argocd-image-updater.argoproj.io/springboot-app.update-strategy: "latest"
+    argocd-image-updater.argoproj.io/springboot-app.image: "marco712/springboot-images"
 spec:
   project: default
-
   source:
     repoURL: https://github.com/Marrrco7/Devops-solution.git
     targetRevision: HEAD
@@ -13,11 +15,9 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
-
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
-
     automated:
       selfHeal: true
       prune: true
