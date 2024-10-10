@@ -4,8 +4,9 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/springboot-app.update-strategy: "latest"
-    argocd-image-updater.argoproj.io/springboot-app.image: "marco712/springboot-images"
+
+    argocd-image-updater.argoproj.io/springboot-app.update-strategy: "semver"
+    argocd-image-updater.argoproj.io/springboot-app.image-list: "marco712/springboot-images"
 spec:
   project: default
   source:
